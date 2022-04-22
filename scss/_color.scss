@@ -1,0 +1,17 @@
+/*********************
+// Colors
+*********************/
+
+//$color-dark: #222;
+$color-dark: #11141b;
+$color-white: #FFFAF1;
+
+:root {
+  --color-main: #{$color-dark};
+  --color-second: #{$color-white};
+}
+
+.dark-mode {
+  --color-main: #{$color-white};
+  --color-second: #{$color-dark};
+}

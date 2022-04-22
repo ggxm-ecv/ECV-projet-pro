@@ -1,0 +1,43 @@
+/*********************
+// Helpers
+*********************/
+
+/* Auto-prefixer */
+
+// Usage exemple :
+/*
+.selector {
+  @include prefix((
+    column-count: 3,
+    column-gap: 1.5em,
+    column-rule: 2px solid hotpink
+  ), webkit moz);
+}
+*/
+
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    #{$property}: $value;
+  }
+}
+
+@include md_up {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@include md_down { 
+  .desktop-only {
+    display: none;
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+  text-decoration-thickness: from-font;
+}

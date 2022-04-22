@@ -1,0 +1,59 @@
+/*********************
+// Breakpoints
+*********************/
+
+/* Define breakpoints */
+
+$sm-break: 600px;
+$md-break: 900px;
+$lg-break: 1200px;
+
+/* Define media query */
+
+// Small break
+@mixin sm_up {
+	@media (min-width: #{$sm-break}) {
+		@content;
+	}
+}
+@mixin sm_down {
+	@media (max-width: #{$sm-break}) {
+		@content;
+	}
+}
+
+// Medium break
+@mixin md_up {
+	@media (min-width: #{$md-break}) {
+		@content;
+	}
+}
+@mixin md_down {
+	@media (max-width: #{$md-break}) {
+		@content;
+	}
+}
+
+// Large break
+@mixin lg_up {
+	@media (min-width: #{$lg-break}) {
+		@content;
+	}
+}
+@mixin lg_down {
+	@media (max-width: #{$lg-break}) {
+		@content;
+	}
+}
+
+// Custom break
+@mixin rwd_up($screen) {
+	@media (min-width: $screen+"px") {
+		@content;
+	}
+}
+@mixin rwd_down($screen) {
+	@media (max-width: $screen+"px") {
+		@content;
+	}
+}

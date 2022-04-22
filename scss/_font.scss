@@ -1,0 +1,161 @@
+/*********************
+// Fonts
+*********************/
+
+/* Font Family - Product Sans */
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../font/ProductSans-Regular.eot');
+  src: url('../font/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProductSans-Regular.woff2') format('woff2'),
+       url('../font/ProductSans-Regular.woff') format('woff'),
+       url('../font/ProductSans-Regular.ttf')  format('truetype'),
+       url('../font/ProductSans-Regular.svg#ProductSans-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../font/ProductSans-Italic.eot');
+  src: url('../font/ProductSans-Italic.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProductSans-Italic.woff2') format('woff2'),
+       url('../font/ProductSans-Italic.woff') format('woff'),
+       url('../font/ProductSans-Italic.ttf')  format('truetype'),
+       url('../font/ProductSans-Italic.svg#ProductSans-Italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../font/ProductSans-Bold.eot');
+  src: url('../font/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProductSans-Bold.woff2') format('woff2'),
+       url('../font/ProductSans-Bold.woff') format('woff'),
+       url('../font/ProductSans-Bold.ttf')  format('truetype'),
+       url('../font/ProductSans-Bold.svg#ProductSans-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../font/ProductSans-BoldItalic.eot');
+  src: url('../font/ProductSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProductSans-BoldItalic.woff2') format('woff2'),
+       url('../font/ProductSans-BoldItalic.woff') format('woff'),
+       url('../font/ProductSans-BoldItalic.ttf')  format('truetype'),
+       url('../font/ProductSans-BoldItalic.svg#ProductSans-BoldItalic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+/* Size Settings */
+
+:root {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+
+  --font-size--small: 1.0rem; /* 10px */
+  --font-size--normal: 1.4rem; /* 14px */
+  --font-size--large: 1.8rem; /* 18px */
+
+  --line-height--small: calc(var(--font-size--small) * 1.5);
+  --line-height--normal: calc(var(--font-size--normal) * 1.5);
+  --line-height--large: calc(var(--font-size--large) * 1.5);
+
+  @include md_up {
+    --font-size--small: 1.4rem;
+    --font-size--normal: 1.8rem;
+    --font-size--large: 2.2rem;
+
+    --line-height--small: calc(var(--font-size--small) * 1.5);
+    --line-height--normal: calc(var(--font-size--normal) * 1.5);
+    --line-height--large: calc(var(--font-size--large) * 1.5);
+  }
+
+  @include lg_up {
+    --font-size--small: 1.8rem;
+    --font-size--normal: 2.2rem;
+    --font-size--large: 2.6rem;
+
+    --line-height--small: calc(var(--font-size--small) * 1.5);
+    --line-height--normal: calc(var(--font-size--normal) * 1.5);
+    --line-height--large: calc(var(--font-size--large) * 1.5);
+  }
+}
+
+
+/* Global */
+
+body, p, a, button {
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-size: var(--font-size--normal);
+  line-height: var(--line-height--normal);
+  letter-spacing: 0.08rem;
+}
+
+
+/* Heading Settings */
+
+.heading {
+  margin: 0;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+}
+
+.h1 {
+  font-size: 3.8rem;
+  line-height: calc(3.8rem * 1.2);
+}
+
+.h2 {
+  font-size: 2.4rem;
+  line-height: calc(2.4rem * 1.2);
+}
+
+.h3 {
+  font-size: 1.8rem;
+  line-height: calc(1.8rem * 1.2);
+}
+
+@include md_up {
+  .h1 {
+    font-size: 4.8rem;
+    line-height: calc(4.8rem * 1.2);
+  }
+
+  .h2 {
+    font-size: 3.2rem;
+    line-height: calc(3.2rem * 1.2);
+  }
+
+  .h3 {
+    font-size: 2.4rem;
+    line-height: calc(2.4rem * 1.2);
+  }
+}
+
+@include lg_up {
+  .h1 {
+    font-size: 6.8rem;
+    line-height: calc(6.8rem * 1.2);
+  }
+
+  .h2 {
+    font-size: 4.8rem;
+    line-height: calc(4.8rem * 1.2);
+  }
+
+  .h3 {
+    font-size: 3.6rem;
+    line-height: calc(3.6rem * 1.2);
+  }
+}
