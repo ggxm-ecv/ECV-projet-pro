@@ -448,6 +448,11 @@
   }
 }
 
+.step-8__content-link {
+  display: inline-block;
+  text-decoration: underline;
+}
+
 
 /********* Step 9 *********/
 
@@ -501,6 +506,11 @@
   @include md_up {
     padding: 16px 0;
   }
+}
+
+.step-9__content-link {
+  display: inline-block;
+  text-decoration: underline;
 }
 
 
