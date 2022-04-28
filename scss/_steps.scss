@@ -598,286 +598,96 @@
   }
 }
 
+/********* Step 13 *********/
 
-/********* Step 3 *********/
+.step-13__content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 16px;
+}
 
-// .step-3 {
-//   box-sizing: border-box;
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   grid-template-rows: 1fr 1fr;
-//   @include md_up {
-//     grid-template-columns: 1fr 1fr;
-//     grid-template-rows: 1fr;
-//   }
-// }
+.step-13__content-item {
+  text-align: center;
+  padding: 24px 0;
+  @include sm_up {
+    padding: 32px 0;
+  }
+  @include md_up {
+    padding: 40px 0;
+  }
+  @include lg_up {
+    padding: 56px 0;
+  }
+}
 
-// .step-3__content {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   padding: 16px;
-//   border-bottom: 1px solid var(--color-main);
-//   border-top: 1px solid var(--color-main);
-//   @include md_up {
-//     border-bottom: none;
-//     border-right: 1px solid var(--color-main);
-//     border-top: none;
-//     border-left: 1px solid var(--color-main);
-//   }
-//   &:first-child {
-//     border-top: none;
-//     border-left: none;
-//   }
-//   &:last-child {
-//     border-bottom: none;
-//     border-right: none;
-//   }
-// }
-
-// .step-3__content-list {
-//   margin: 16px 0 0 0;
-//   padding-left: 24px;
-//   @include md_up {
-//     margin: 32px 0 0 0;
-//   }
-// }
-
-// .step-3__content-list-item {
-//   padding: 8px 0;
-//   font-size: var(--font-size--large);
-//   line-height: var(--line-height--large);
-//   @include md_up {
-//     padding: 16px 0;
-//   }
-// }
+.step-13__content-link {
+  display: inline-block;
+  text-decoration: underline;
+}
 
 
-/********* Step 4 *********/
+/********* Step 14 *********/
 
-// .step-4__content {
-//   box-sizing: border-box;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   max-width: 100%;
-//   height: 100%;
-//   max-height: 100%;
-//   padding: 16px;
-// }
+.step-14__content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 16px;
+}
 
-// .step-4__content-item {
-//   text-align: center;
-//   padding: 24px 0;
-//   @include sm_up {
-//     padding: 32px 0;
-//   }
-//   @include md_up {
-//     padding: 40px 0;
-//   }
-//   @include lg_up {
-//     padding: 56px 0;
-//   }
-// }
-
-
-/********* Step 5 *********/
-
-// .step-5 {
-//   box-sizing: border-box;
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   grid-template-rows: 1fr 1fr 1fr;
-//   @include md_up {
-//     grid-template-columns: 1fr 1fr 1fr;
-//     grid-template-rows: 1fr;
-//   }
-// }
-
-// .step-5__content {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   padding: 16px;
-//   border-bottom: 1px solid var(--color-main);
-//   border-top: 1px solid var(--color-main);
-//   @include md_up {
-//     border-bottom: none;
-//     border-right: 1px solid var(--color-main);
-//     border-top: none;
-//     border-left: 1px solid var(--color-main);
-//   }
-//   &:first-child {
-//     border-top: none;
-//     border-left: none;
-//   }
-//   &:last-child {
-//     border-bottom: none;
-//     border-right: none;
-//   }
-// }
-
-// .step-5__content-list {
-//   margin: 16px 0 0 0;
-//   padding-left: 24px;
-//   @include md_up {
-//     margin: 32px 0 0 0;
-//   }
-// }
-
-// .step-5__content-list-item {
-//   padding: 8px 0;
-//   font-size: var(--font-size--normal);
-//   line-height: var(--line-height--normal);
-//   @include md_up {
-//     font-size: var(--font-size--small);
-//     line-height: var(--line-height--small);
-//   }
-//   @include md_up {
-//     padding: 16px 0;
-//   }
-// }
+.step-14__content-item {
+  text-align: center;
+  padding: 24px 0;
+  @include sm_up {
+    padding: 32px 0;
+  }
+  @include md_up {
+    padding: 40px 0;
+  }
+  @include lg_up {
+    padding: 56px 0;
+  }
+}
 
 
-/********* Step 6 *********/
+/********* Step 15 *********/
 
-// .step-6__content {
-//   box-sizing: border-box;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   max-width: 100%;
-//   height: 100%;
-//   max-height: 100%;
-//   padding: 16px;
-// }
+.step-15__content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 16px;
+}
 
-// .step-6__content-item {
-//   text-align: center;
-//   padding: 24px 0;
-//   @include sm_up {
-//     padding: 32px 0;
-//   }
-//   @include md_up {
-//     padding: 40px 0;
-//   }
-//   @include lg_up {
-//     padding: 56px 0;
-//   }
-// }
-
-
-/********* Step 7 *********/
-
-// .step-7__content {
-//   box-sizing: border-box;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   max-width: 100%;
-//   height: 100%;
-//   max-height: 100%;
-//   padding: 16px;
-// }
-
-// .step-7__content-item {
-//   text-align: center;
-//   padding: 24px 0;
-//   @include sm_up {
-//     padding: 32px 0;
-//   }
-//   @include md_up {
-//     padding: 40px 0;
-//   }
-//   @include lg_up {
-//     padding: 56px 0;
-//   }
-// }
-
-
-/********* Step 8 *********/
-
-// .step-8__content {
-//   box-sizing: border-box;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   max-width: 100%;
-//   height: 100%;
-//   max-height: 100%;
-//   padding: 16px;
-// }
-
-// .step-8__content-item {
-//   text-align: center;
-//   padding: 24px 0;
-//   @include sm_up {
-//     padding: 32px 0;
-//   }
-//   @include md_up {
-//     padding: 40px 0;
-//   }
-//   @include lg_up {
-//     padding: 56px 0;
-//   }
-// }
-
-// .step-8__content-item-extra {
-//   display: block;
-//   margin-top: 8px;
-//   font-size: var(--font-size--large);
-//   line-height: var(--line-height--large);
-//   @include md_up {
-//     margin-top: 16px;
-//   }
-// }
-
-/********* Step 9 *********/
-
-// .step-9__content {
-//   box-sizing: border-box;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   max-width: 100%;
-//   height: 100%;
-//   max-height: 100%;
-// }
-
-// .step-9__content-link {
-//   box-sizing: border-box;
-//   display: block;
-//   width: 100%;
-//   padding: 16px 8px;
-//   border-bottom: 2px solid var(--color-main);
-//   text-align: center;
-//   background-image: linear-gradient(var(--color-main), var(--color-main));
-//   background-size: 0 100%;
-//   background-position: 0 100%;
-//   background-repeat: no-repeat;
-//   @include prefix((
-//     transition: all 400ms ease-in
-//   ), webkit ms);
-//   &:first-child {
-//     border-top: 2px solid var(--color-main);
-//   }
-//   &:hover {
-//     color: var(--color-second);
-//     background-size: 100% 100%;
-//   }
-//   @include md_up {
-//     padding: 24px 8px;
-//   }
-// }
+.step-15__content-item {
+  text-align: center;
+  padding: 24px 0;
+  @include sm_up {
+    padding: 32px 0;
+  }
+  @include md_up {
+    padding: 40px 0;
+  }
+  @include lg_up {
+    padding: 56px 0;
+  }
+}
